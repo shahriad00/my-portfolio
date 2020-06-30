@@ -7,10 +7,10 @@ body{
 .first-section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-    margin-bottom: 8rem;
+    margin-bottom: 7rem;
 }
 .first-section .container{
-    width: 87%;
+    width: 86%;
     margin:0px auto;
 }
 .grid{
@@ -18,7 +18,8 @@ body{
     grid-template-columns: 50% 50%;
 }
 .first-section .heading{
-    font-size: 40px;
+    margin-top: 2rem;
+    font-size: 2.1rem;
     
 
 }
@@ -26,11 +27,11 @@ body{
     color: orange;
 }
 .first-section .container .heading-bottom{
-    font-size: 1em;
+    font-size: 0.8em;
 }
 .first-section .heading-bottom-text{
     color: #696969;
-    font-size: 20px;
+    font-size: 1rem;
 }
 .heading-button button{
     font-family: 'Poppins', sans-serif;
@@ -38,8 +39,8 @@ body{
     color: white;
     background: #FF6A4D ;
     border-radius: 5px;
-    font-size: 1.3rem;
-    padding: 0.65rem 2.7rem;
+    font-size: 1rem;
+    padding: 0.4rem 2.4rem;
     margin-top: -5px;
     border: 2px solid #FF6A4D;
     transition: 0.5s;
@@ -52,9 +53,9 @@ body{
     
 
 .first-section .half-width .web-img img{
-    width: 670px;
-    height: 670px;
-    margin:0px 70px;
+    width: 520px;
+    height: 520px;
+    margin:0px 60px;
 }
 
 /*first section end*/
@@ -76,10 +77,10 @@ body{
     grid-template-columns: 50% 50%;
 }
 .second-section .heading{
-    font-size: 35px;  
+    font-size: 1.7rem;  
 }
 .second-section .container .second-section-div{
-    padding-left: 4rem;
+    padding-left: 3.5rem;
 }
 .second-section .heading .heading-highlight{
     color: orange;
@@ -89,19 +90,7 @@ body{
 }
 .second-section .heading-bottom-text{
     color: #696969;
-    font-size: 20px;
-}
-.heading-button button{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: white;
-    background: #FF6A4D ;
-    border-radius: 5px;
-    font-size: 1.3rem;
-    padding: 0.65rem 2.7rem;
-    margin-top: -5px;
-    border: 2px solid #FF6A4D;
-    transition: 0.5s;
+    font-size: 1rem;
 }
 .heading-button button:hover{
     background-color: #ffffff;
@@ -111,8 +100,8 @@ body{
     
 
 .second-section .half-width .web-img img{
-    width: 650px;
-    height: 650px;
+    width: 520px;
+    height: 520px;
     margin:0px 0px;
 }
 
@@ -132,29 +121,32 @@ body{
     background-position:left ;
 }
 .experiences .box-section .experience-heading-bottom{
-    font-size: xx-large;
-   
+    font-size: 1.5rem; 
+}
+.experiences .box-section .experience-small-heading{
+    font-size: 1rem;
+    color: orange;
 }
 .experiences .box-section p{
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #696969;
 
 }
 .experiences .box-section .experiences-left-part{
-    margin: 0px 40px;
+    margin: 0px 30px;
     margin-left: 80px;
-    padding: 40px 40px;
-    box-shadow: 10px 10px 40px gray;
+    padding:0px 20px 60px 30px;
+    box-shadow: 8px 10px 40px gray;
     border-left:10px solid;
     border-image: linear-gradient(tomato,lightsalmon);
     border-image-slice: 1;
 }
 .experiences .box-section .experiences-right-part{
-    margin: 0px 40px;
+    margin: 0px 30px;
     margin-right: 80px;
-    padding: 40px 40px;
+    padding:0px 20px 60px 30px;
     box-shadow: 10px 10px 40px gray;
-    border-left:10px solid;
+    border-left:8px solid;
     border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
 }
