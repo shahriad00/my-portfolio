@@ -118,3 +118,52 @@ body{
 
 
 /*second section end*/
+
+.experiences .experience-heading{
+    text-align: center;
+    font-size: xx-large;
+}
+
+/*third section start*/
+.experiences{
+    margin-bottom: 13rem;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+.experiences .box-section .experience-heading-bottom{
+    font-size: xx-large;
+   
+}
+.experiences .box-section p{
+    font-size: 1.3rem;
+    color: #696969;
+
+}
+.experiences .box-section .experiences-left-part{
+    margin: 0px 40px;
+    margin-left: 80px;
+    padding: 40px 40px;
+    box-shadow: 10px 10px 40px gray;
+    border-left:10px solid;
+    border-image: linear-gradient(tomato,lightsalmon);
+    border-image-slice: 1;
+}
+.experiences .box-section .experiences-right-part{
+    margin: 0px 40px;
+    margin-right: 80px;
+    padding: 40px 40px;
+    box-shadow: 10px 10px 40px gray;
+    border-left:10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+/*third section end*/
+
+
+/*footer*/
+.footer{
+    text-align: center;
+    color: #696969;
+    font-size: 1.2rem;
+}
