@@ -115,7 +115,7 @@ body{
 
 /*third section start*/
 .experiences{
-    margin-bottom: 13rem;
+    margin-bottom: 9rem;
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position:left ;
@@ -157,5 +157,6 @@ body{
 .footer{
     text-align: center;
     color: #696969;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
 }
+/*end*/
