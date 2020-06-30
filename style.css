@@ -1,9 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;;
+    margin: 0px auto;
 }
 
 /*first section start*/
-
+.first-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
 .first-section .container{
     width: 87%;
     margin:0px auto;
